@@ -1,0 +1,178 @@
+body
+{
+    background-image: url(../image/bg_site.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#logo
+{
+    background-image: url(../image/logo.png);
+    background-size: contain;
+    background-color: black;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: white;
+    text-shadow: rgb(200, 200, 200) 0px 10px 3px;
+    padding: 20px;
+    padding-left: 90px;
+    box-shadow: black 0px 10px 20px;
+}
+
+#select
+{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-shadow: black 0px 5px 3px;
+}
+
+#contener1
+{
+    width: 1400px;
+    height: 600px;
+}
+
+#videos
+{
+    width: 1300px;
+    height: 530px;
+}
+
+#clip1
+{
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+#clip2
+{
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 350px;
+}
+
+#clip3
+{
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 650px;
+}
+
+#clip4
+{
+    float: left;
+    position: relative;
+    top: 280px;
+    right: 550px;
+}
+
+#clip5
+{
+    float: left;
+    position: relative;
+    top: 280px;
+    right: 250px;
+}
+
+#clip6
+{
+    float: left;
+    position: relative;
+    top: 280px;
+    left: 50px;
+}
+
+#name_page
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: black 0px 5px 3px;
+    position: fixed;
+}
+
+.clip
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 0px 5px 3px;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+}
+
+.img_small
+{
+    height: 150px;
+    box-shadow: black 0px 5px 10px;
+}
+
+.button
+{
+    background-color: rgb(255, 150, 100);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border: solid;
+    border-radius: 10px;
+    border-color: transparent;
+    text-shadow: black 0px 5px 3px;
+    box-shadow: black 0px 5px 3px;
+}
+
+.button:hover
+{
+    background-color: rgb(255, 130, 80);
+}
+
+.button:active
+{
+    background-color: rgb(255, 100, 50);
+    box-shadow: black 0px 0px 3px;
+}
+
+.select
+{
+    background-color: transparent;
+    border: solid;
+    border-color: transparent;
+    border-bottom-color: rgb(255, 150, 100);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-shadow: black 0px 5px 3px;
+}
+
+.button_back
+{
+    position: fixed;
+    right: 40px;
+    top: 13px;
+    text-decoration: none;
+    background-color: rgb(100, 100, 100);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: white 0px 5px 20px;
+}
+
+.button_back:hover
+{
+    background-color: rgb(60, 60, 60);
+}
+
+.button_back:active
+{
+    background-color: rgb(30, 30, 30);
+    box-shadow: white 0px 0px 20px;
+}
